@@ -1,0 +1,18 @@
+defaults: &defaults
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: the_14_project_<%= Rails.env %>
+  pool: 5
+  userame: <username>
+  password:
+  template: template0
+
+test:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+production:
+  <<: *defaults
