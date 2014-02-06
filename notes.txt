@@ -1,3 +1,5 @@
-setup rspec and other testing frameworks we want to use
-create routes for static pages
-create users and user management
+put real content on the pages
+create a post/event/blog/something
+  model, view, controller, must be logged in to create/edit
+look into devise-invitable gem
+create user management
