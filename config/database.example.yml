@@ -1,0 +1,14 @@
+defaults: &defaults
+  adapter:  postgresql
+  database: the_14_<%= Rails.env %>
+  userame:  <user_name>
+  password: <password>
+
+test:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+production:
+  <<: *defaults
