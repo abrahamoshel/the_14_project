@@ -1,4 +1,3 @@
-setup pg
 setup rspec and other testing frameworks we want to use
 create routes for static pages
 create users and user management
