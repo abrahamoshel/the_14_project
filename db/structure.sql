@@ -48,6 +48,6 @@ CREATE UNIQUE INDEX unique_schema_migrations ON schema_migrations USING btree (v
 -- PostgreSQL database dump complete
 --
 
-SET search_path TO jesse, public, cnu;
+SET search_path TO public;
 
 
