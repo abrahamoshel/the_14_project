@@ -1,6 +1,5 @@
 class StaticController < ApplicationController
   def index
-    render text: 'Home'
   end
 
   def about_us
