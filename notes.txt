@@ -1,5 +1,4 @@
 put real content on the pages
-create a post/event/blog/something
-  model, view, controller, must be logged in to create/edit
+controllers, views, routes (locations, posts, events)
 look into devise-invitable gem
 create user management
