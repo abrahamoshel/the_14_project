@@ -9,6 +9,10 @@
 <body>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
+
+  <div class="session_box">
+    <%= session_link_helper(current_user) %>
+  </div>
 <%= yield %>
 
 </body>
